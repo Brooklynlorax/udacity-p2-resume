@@ -130,6 +130,7 @@ ul {
 
 #footerContacts {
   padding-left: 5%;
+
 }
 
 /*Layout*/
@@ -166,11 +167,15 @@ ul {
   background-color: #4A4A4A;
 }
 
-/* TODO: Replace with image later */
 #header {
   background-color: #48577D;
   color: #fff;
   margin-bottom: 1%;
+}
+
+#footer {
+  background-color: #4A4A4A;
+  min-height: 15px;
 }
 
 .flex-box {
@@ -224,6 +229,8 @@ span {
   text-align: center;
 }
 
+/* Media queries to handle various device widths */
+
 @media only screen and (max-width: 1024px) {
   #letsConnect {
     margin-top: 5%;
@@ -246,10 +253,12 @@ span {
   .welcome-message {
     display: none;
   }
+  #header {
+    width: 100%;
+  }
 }
 
 #map {
-  display: block;
   height: 100%;
   margin-left: 5%;
   margin-right: 5%;

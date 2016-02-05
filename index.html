@@ -67,14 +67,11 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     <div id="mapDiv">
       <h2>Where I've Lived and Worked</h2>
     </div>
-    <div class="dark-gray">
+    <div id="footer">
       <ul id="footerContacts" class="flex-box">
       </ul>
     </div>
   </div>
-
-
-  <script src="js/resumeBuilder.js"></script>
 
   <!--
   These scripts are written in JavaScript. You'll be breaking them down as part of
@@ -83,6 +80,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   of the resume, then that part of the resume does not show up. More on this in the
   course.
   -->
+  <script src="js/resumeBuilder.js"></script>
 
   <script type="text/javascript">
 
@@ -107,8 +105,6 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     if(document.getElementById('map') === null) {
       document.getElementById('mapDiv').style.display = 'none';
     }
-
-
 
   </script>
 </body>
