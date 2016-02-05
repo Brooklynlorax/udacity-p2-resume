@@ -1,0 +1,270 @@
+/*Text*/
+* {
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  color: #777777;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #999999;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #999999;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 17px;
+}
+
+h2, h3, h4, h5 {
+  padding:10px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+p {
+  font-size: 14px;
+  color: #777777;
+  line-height: 21px;
+}
+
+a {
+  color: #6091D4;
+  text-decoration: none;
+  margin-top: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 20px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 20px;
+  float: left;
+
+}
+
+.major-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #000000;
+  line-height: 20px;
+  display: inline-block;
+  margin-top: 1px;
+  float: none;
+
+}
+
+.work-title {
+  display: block;
+  color: #9197A6;
+}
+
+.project-title{
+  display: block;
+}
+
+.school-title {
+  display: block;
+}
+
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #F3F3F3;
+  line-height: 28px;
+}
+
+.white-text {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.gray {
+  color: #BBC3D6;
+}
+
+
+#skillsH3 {
+  color: #9197A6;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#name {
+  color: #9197A6;
+  margin-right: 10px;
+}
+
+#footerContacts {
+  padding-left: 5%;
+}
+
+/*Layout*/
+
+#main {
+  background: #fff;
+  }
+
+.clearfix {
+  overflow: auto;
+  clear: both;
+}
+
+.education-entry, .work-entry, .project-entry {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 1%;
+}
+.project-entry {
+  float: left;
+}
+
+.project-image {
+  border: 1px solid #dddddd;
+  margin-top: 8px;
+}
+
+.gray-background {
+  background-color: #f2fafd;
+  padding-bottom: 10px;
+}
+
+.dark-gray {
+  background-color: #4A4A4A;
+}
+
+/* TODO: Replace with image later */
+#header {
+  background-color: #48577D;
+  color: #fff;
+  margin-bottom: 1%;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+
+.flex-item {
+  flex-grow: 1;
+}
+
+.center-content {
+  padding-top: 1.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1.5%
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+img {
+  padding: 10px;
+}
+
+/* Bar chart stuff */
+.chart div {
+  font: 10px sans-serif;
+  background-color: #4A4A4A;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  height: 12px;
+  color: white;
+  display: inline-block;
+}
+
+span {
+  padding: 5px;
+}
+
+#letsConnect {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  .biopic {
+    display: block;
+  }
+}
