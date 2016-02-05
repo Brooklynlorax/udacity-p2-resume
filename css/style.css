@@ -69,8 +69,6 @@ ul {
   font-size: 14px;
   color: #999999;
   line-height: 20px;
-  float: left;
-
 }
 
 .major-text {
@@ -259,6 +257,7 @@ span {
 }
 
 #map {
+  display: block;
   height: 100%;
   margin-left: 5%;
   margin-right: 5%;

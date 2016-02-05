@@ -157,7 +157,7 @@ var education = {
         {
             "name": "Fullstack Academy of Code",
             "location": "New York, NY",
-            "degree": " ",
+            "degree": "Course",
             "major": "JavaScript Jumpstart",
             "dates": "February-March 2015"
         },
@@ -206,16 +206,10 @@ var education = {
             var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[course].title);
             var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
             var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);
-            $(".education-entry:last").append(formattedOnlineTitle + formattedOnlineSchool);
+            $(".education-entry:last").append(formattedOnlineSchool + formattedOnlineTitle);
             $(".education-entry:last").append(formattedOnlineDates);
         }
     }
-
 };
-
-bio.display();
-education.display();
-work.display();
-projects.display();
 
 $("#mapDiv").append(googleMap);

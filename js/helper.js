@@ -50,9 +50,9 @@ var HTMLschoolLocation = '<div class="location-text">%data%. </div>';
 var HTMLschoolMajor = '<div class="major-text">%data%</div>';
 
 var HTMLonlineClasses = '<h3>Online Classes</h3>';
-var HTMLonlineTitle = '<div class="school-title"><a href="#">%data%';
-var HTMLonlineSchool = ' – %data%</a></div>';
-var HTMLonlineDates = '<div class="date-text">%data%</div>';
+var HTMLonlineTitle = ' – %data%</a></div>';
+var HTMLonlineSchool = '<div class="school-title"><a href="#">%data%';
+var HTMLonlineDates = '<div class="date-text">%data%.</div>';
 var HTMLonlineURL = '<br><a href="#">%data%</a>';
 
 var internationalizeButton = '<button>Internationalize</button>';
